@@ -1,9 +1,9 @@
 ### About
-This is a simple application with a Capybara test you can run to see data auto-magically entered through your browser. 
+This is a simple application with a Capybara test you can run to see data auto-magically entered through your browser.
 
 ### Setup
 
-These gems were added to the `test` group support Capybara 
+These gems were added to the `test` group support Capybara
 
 ````
 group :test do
@@ -28,7 +28,7 @@ end
 
 ### Drivers
 
-You can swap the driver by uncommenting your drive of choice in the setup block of `manage_users_test.rb`
+You can swap the driver by uncommenting your driver of choice in the setup block of `manage_users_test.rb`
 
 `:selenium` is selected by default, and with this driver you can actually see Firefox opening and running your test (optionally slowed down by carefully placed `sleep` statements). **Just make sure you have Firefox installed to use it.**
 
